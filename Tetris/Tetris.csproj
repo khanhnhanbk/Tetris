@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>assets\Icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,6 +28,10 @@
     <None Remove="assets\TilePurple.png" />
     <None Remove="assets\TileRed.png" />
     <None Remove="assets\TileYellow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="assets\Icon.ico" />
   </ItemGroup>
 
   <ItemGroup>

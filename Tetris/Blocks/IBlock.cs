@@ -1,4 +1,4 @@
-﻿namespace Tetris
+﻿namespace Tetris.Blocks
 {
     internal class IBlock : Block
     {
@@ -14,6 +14,6 @@
 
         protected override Position[][] Tiles => tiles;
 
-        protected override Position StartOffset => new Position(-1,3) ;
+        protected override Position StartOffset => new Position(-1, 3);
     }
 }

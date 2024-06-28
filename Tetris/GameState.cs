@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tetris.Blocks;
 
 namespace Tetris
 {
@@ -116,7 +117,7 @@ namespace Tetris
             {
                 CurrentBlock = BlockQueue.GetAndUpdate();
                 int cleared =     GameGrid.ClearFullRow();
-                Score += cleared * cleared;
+                Score += cleared * cleared * 100;
             }
         }
 

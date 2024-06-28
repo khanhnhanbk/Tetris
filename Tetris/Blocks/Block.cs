@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tetris
+namespace Tetris.Blocks
 {
     public abstract class Block // have many type of block
     {
@@ -39,7 +39,7 @@ namespace Tetris
             rotationState = (rotationState - 1 + Tiles.Length) % Tiles.Length;
         }
 
-        public void Move(int  x, int y)
+        public void Move(int x, int y)
         {
             offset.Row += x;
             offset.Column += y;

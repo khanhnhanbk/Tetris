@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tetris.Blocks;
 
 namespace Tetris
 {
@@ -12,7 +13,8 @@ namespace Tetris
         {
             new IBlock(),
             new OBlock(),
-            new LBlock()
+            new LBlock(),
+            new JBlock(),
         };
 
         private readonly Random random = new Random();
