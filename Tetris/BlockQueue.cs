@@ -15,6 +15,9 @@ namespace Tetris
             new OBlock(),
             new LBlock(),
             new JBlock(),
+            new SBlock(),
+            new ZBlock(),
+            new TBlock()
         };
 
         private readonly Random random = new Random();
